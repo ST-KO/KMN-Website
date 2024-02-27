@@ -418,7 +418,7 @@ body {
   box-shadow: 10px 10px 54px rgba(230, 207, 60, 0.5);
 }
 
-
+/* ---------- SM Banner Section ----------*/
 
 #sm-banner{
   display: flex;
@@ -655,7 +655,7 @@ footer .copyright{
 @media (max-width:799px) {
   /* ---------- Header Section ----------*/
   #header{
-    padding: 20px 40px;
+    padding: 20px 60px;
   }
 
   #navbar {
@@ -711,10 +711,9 @@ footer .copyright{
   /* ---------- Home Page ----------*/
   #hero {
     height: 90vh;
-    padding: 0 50px;
-    background-position: top 5% right 0%;
+    background-position: top 5% right -10%;
     
-    padding: 0 30px;
+    padding: 0 50px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -733,6 +732,8 @@ footer .copyright{
     font-size: 45px;
   }
 
+
+  /* ---------- Features Section ----------*/
   #feature {
     justify-content: center;
   }
@@ -775,7 +776,7 @@ footer .copyright{
   }
 
   #banner3 .banner-box {
-    width: 28%;
+    width: 100%;
   }
 
 
@@ -788,132 +789,86 @@ footer .copyright{
 @media (max-width:477px) {
   /* ---------- Header Section ----------*/
   #header{
-    padding: 20px 40px;
-  }
-
-  #navbar {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: flex-start;
-    
-    position: fixed;
-    top: 0;
-    right: -300px;
-    height: 100vh;
-    width: 300px;
-    background-color: #fff;
-    box-shadow: 0 40px 60px rbga(0, 0, 0, 0.1);
-    padding: 80px 0 0 20px;
-    transition: 0.3s;
-  }
-
-  #navbar.active{
-    right: 0px
-  } 
-
-  #navbar li{
-    margin-bottom: 25px;
-  }
-
-  #mobile{
-    display: flex;
-    align-items: center;
-  }
-
-  #mobile i {
-    color: #1a1a1a;
-    font-size: 24px;
-    padding-left: 20px;
-  }
-  
-  #close {
-    display: initial;
-    position: absolute;
-    top: 30px;
-    left: 30px;
-    color: #222;
-    font-size: 24px;
-  }
-
-  #lg-bag {
-    display: none;
+    padding: 10px 30px;
   }
 
   
   /* ---------- Home Page ----------*/
   #hero {
-    height: 90vh;
-    padding: 0 50px;
-    background-position: top 5% right 0%;
-    
-    padding: 0 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: center;
+    padding: 0 10px;
+    background-position: 22%;
+    align-items: flex-start;
   }
 
   #hero h4 {
-    font-size: 16px;
+    font-size: 15px;
   }
 
   #hero h2 {
-    font-size: 35px;
+    font-size: 30px;
   }
 
   #hero h1 {
-    font-size: 45px;
+    font-size: 40px;
   }
 
+
+  /* ---------- Features Section ----------*/
   #feature {
-    justify-content: center;
+    justify-content: space-between;
   }
 
   #feature .fe-box {
-    margin: 15px 15px;
+    width: 155px;
+    margin: 0 0 15px 0;
   }
 
   .section-p1 {
-    padding: 40px 40px;
+    padding: 20px;
   }
 
 
   /* ---------- Featured Products Section ----------*/
-  #product1 .pro-container {
-    justify-content: center;
+  #product1 h2 {
+    font-size: 33px;
   }
 
   #product1 .pro {
-    margin: 15px;
+    width: 100%;
   }
 
 
   /* ---------- Banner Section ----------*/
   #banner {
-    height: 20vh;
+    height: 35vh;
   }
 
+  #banner h2 {
+    font-size: 25px;
+  }
 
   /* ---------- SM Banner Section ----------*/
   #sm-banner .banner-box {
-    min-width: 100%;
-    height: 30vh;
+    height: 40vh;
+  }
+
+  #sm-banner .banner-box{
+    padding: 25px;
   }
 
 
   /* ---------- Banner3 Section ----------*/
   #banner3 {
-    padding: 0 40px;
+    padding: 0 20px;
   }
-
-  #banner3 .banner-box {
-    width: 28%;
-  }
-
 
   /* ---------- Newsletter & Sign-Up Section ----------*/
+  #newsletter {
+    padding: 40px 20px;
+    margin: 20px 0;
+  }
+  
   #newsletter .form {
-    width: 70%;
+    width: 100%;
   }
 } 
