@@ -222,6 +222,10 @@ body {
   
 }
 
+#hero button a{
+  text-decoration: none;
+}
+
 /* ---------- Features Section ----------*/
 #feature{
   display: flex;
