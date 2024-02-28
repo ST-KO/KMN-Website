@@ -650,7 +650,10 @@ footer .copyright{
   text-align: center;
 }
 
-/* --------------- Shop Page ----------------*/
+
+/* ------------------------------  ------------------------------*/
+/* ------------------------- Shop Page --------------------------*/
+/* ---------- Header Section ----------*/
 #page-header{
   background-image: url("img/banner/b17.png");
   background-size: cover;
@@ -668,6 +671,88 @@ footer .copyright{
 #page-header p{
   color: #222;
 }
+
+/* ---------- Pagination Section ----------*/
+#pagination{
+  text-align: center;
+}
+
+#pagination a{
+  text-decoration: none;
+  background-color: #8c52b3;
+  padding: 15px 20px;
+  border-radius: 4px;
+  color: white;
+  font-weight: 600;
+}
+
+#pagination a i{
+  font-size: 16px;
+  font-weight: 600;
+}
+
+
+/* ---------- Single Product ---------- */
+#prodetails{
+  display: flex;
+  margin-top: 20px;
+}
+
+#prodetails .single-pro-image{
+  width: 40%;
+  margin-right: 50px;
+}
+
+.small-img-group{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.small-img-col{
+  flex-basis: 24%;
+  cursor: pointer;
+}
+
+#prodetails .single-pro-details{
+  width: 50%;
+  padding-top: 30px;
+}
+
+#prodetails .single-pro-details h4{
+  padding: 40px 0 20px 0;
+}
+
+#prodetails .single-pro-details h2{
+  font-size: 26px;
+}
+
+#prodetails .single-pro-details select{
+  display: block;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+
+#prodetails .single-pro-details input{
+  width: 50px;
+  height: 40px;
+  padding-left: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+#prodetails .single-pro-details input:focus{
+  outline: none;
+}
+
+#prodetails .single-pro-details button{
+  background-color: #d654a7;
+}
+
+#prodetails .single-pro-details span{
+  line-height: 25px;
+}
+
 
 /* ---------- For Different Screen Sizes ----------*/
 
@@ -890,4 +975,19 @@ footer .copyright{
   #newsletter .form {
     width: 100%;
   }
+
+  /* ----------- Single Product ----------*/
+    #prodetails{
+      display: flex;
+      flex-direction: column;
+    }
+
+    #prodetails .single-pro-image {
+      width: 100%;
+      margin-right: 0px;
+    }
+
+    #prodetails .single-pro-details {
+      width: 100%;
+    }
 } 
