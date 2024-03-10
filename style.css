@@ -1159,4 +1159,8 @@ footer .copyright{
   #about-app .video{
     width: 100%;
   }
+
+  #about-app h1 {
+    font-size: 40px;
+  }
 } 
