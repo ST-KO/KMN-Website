@@ -478,7 +478,7 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
-#sm-banner .banner-box:hover button{
+#sm-banner .banner-box button:hover{
   background: #d654a7;
   border: 1px solid #d654a7;
 }
@@ -883,7 +883,7 @@ footer .copyright{
 
 
 /* ------------------------------  ------------------------------*/
-/* ------------------------- About Page --------------------------*/
+/* ------------------------- Contact Page --------------------------*/
 /* ------------------------------  ------------------------------*/
 
 #contact-details{
